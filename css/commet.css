@@ -1,0 +1,40 @@
+.contenedor-comment{
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.comment{
+    margin: 0;
+    text-align: center;
+    font: var(--bodyMovile);
+}
+.comment-sub{
+    margin: 0;
+    font: var(--headline5);
+}
+
+
+@media screen and (min-width: 768px) {
+    .contenedor-comment{
+        padding-block-start: 150px;
+        padding-block-end: 150px;
+    }
+    .comment{
+        font: var(--body);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contenedor-comment{
+        padding-block-start: 200px;
+        padding-block-end: 200px;
+    }
+    .comment{
+        inline-size: 900px;
+    }
+
+}
